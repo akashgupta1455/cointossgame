@@ -1,0 +1,145 @@
+.abt-text h2 {
+    margin-bottom: 26px;
+    font-size: 55px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.abt-text h4{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #F0B000;
+    position: relative;
+    padding-left: 98px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.abt-text h4::before {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 5px;
+    background: #F0B000;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translatey(-50%);
+    transform: translatey(-50%);
+}
+.abt-text p{
+    color: #ffffff;
+}
+
+.abt-text h2 span{
+    color: #F0B000;
+}
+
+.about-banner{
+    background: url(../about/images/breadcrumb_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abtbner-text h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.abtbner-text h2 span{
+    color: #F0B000;
+}
+
+.breadcrumb-img-two {
+    max-width: 534px;
+    margin: 0 auto;
+    padding: 0 85px;
+    position: relative;
+    z-index: 1;
+}
+.breadcrumb-img-two:hover::before {
+    left: 50px;
+}
+
+.breadcrumb-img-two:hover::after {
+    right: 50px;
+}
+
+.breadcrumb-img-two::before, .breadcrumb-img-two::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../about/images/breadcrumb_img_shape01.png);
+    width: 210px;
+    height: 319px;
+    pointer-events: none;
+    transition: .5s linear;
+    z-index: -1;
+}
+.breadcrumb-img-two::after {
+    background-image: url(../about/images/breadcrumb_img_shape02.png);
+    left: auto;
+    right: 0;
+}
+.abtcoin {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.contact-area {
+    position: relative;
+    z-index: 2;
+    padding: 120px 180px;
+    border: 1px solid #ffffff40;
+    padding: 35px;
+    border-radius: 9px;
+    background: #0000002e;
+    z-index: 9;
+    position: relative;
+}
+
+.contact-header .sub-title {
+    color: #F0B000;
+    margin-bottom: 10px;
+}
+
+.contact-header h2.title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+}
+.contact-header p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+form.contact-form input, form.contact-form textarea{
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    padding: 14px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #161e26;
+    color: #fff;
+}
+
+
+form.contact-form .form-group {
+    margin-bottom: 35px;
+}
+form.contact-form .form-group label{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact-header {
+    margin-bottom: 60px;
+}

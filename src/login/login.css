@@ -1,0 +1,160 @@
+.login-form h2 {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+}
+.login-bg{
+    background-color: #0f161b;
+    height: 100vh;
+}
+
+.login-controls {
+    border: 1px solid #ffffff40;
+    padding: 35px;
+    border-radius: 9px;
+    background: #0000002e;
+    z-index: 9;
+    position: relative;
+}
+.login-form .form-group label {
+    color: #fff;
+    margin: 10px 0 7px 0;
+    font-weight: 100;
+}
+.remtext label {
+    color: #fff;
+    font-weight: 100;
+}
+
+
+.login-btn button.btn {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    transition: all 0.5s;
+    padding: 11px 32px;
+    background: linear-gradient(351.09deg, #F029A0 4.36%, #F0B000 117.5%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    z-index: 0;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Exo', sans-serif;
+}
+
+
+.login-btn button.btn::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(351.09deg, #F0B000 4.36%, #F029A0 117.5%);
+    z-index: -1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.login-btn button.btn:hover::before {
+    left: 0;
+    transition: all 0.5s ease;
+}
+
+.lostlink {
+    text-align: end;
+}
+.login-form .form-group input.form-control{
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    padding: 14px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #161e26;
+    color: #fff;
+}
+.remtext input.formcheck{
+    border-radius: 3px;
+    background-color: transparent;
+    border-color: #364550;
+    margin: 0 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.lostlink a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.login-form .form-group label span {
+    color: #f00;
+}
+
+.login-bg {
+    background: url(/src/login/images/login-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.login-bg::after{
+    content: "0";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.048);
+    z-index: 1;
+} 
+
+
+.or p {
+    position: relative;
+    margin: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+ .or p::before {
+    left: 0;
+}
+ .or p::after,  .or p::before {
+    position: absolute;
+    content: '';
+    width: 44%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 50%;
+}
+
+.or p::after {
+    right: 0;
+}
+.account {
+    text-align: center;
+}
+.account p {
+    color: #fff;
+}
