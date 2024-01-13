@@ -1,9 +1,8 @@
 import './header.css'
-import { Outlet, Link, NavLink  } from "react-router-dom";
-
-function header() {
+import { Outlet, Link, NavLink } from "react-router-dom";
 
 
+function header() { 
   return (    
     <>    
     <header className='haeder-sticky'>
@@ -27,12 +26,18 @@ function header() {
                   <li class="nav-item">
                      <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>Tournament</NavLink>                   
                   </li>                     
-                  <li class="nav-item">
+                  {/* <li class="nav-item">
                     <NavLink to="/register" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>Sign up</NavLink>                   
-                  </li>  
-                  <li class="nav-item">
+                  </li>   */}
+                  {/* <li class="nav-item">
                     <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>Contact Us</NavLink>                     
-                  </li>                 
+                    </li> */}
+                   <li class="nav-item">
+                    <NavLink to="/profile" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>My Profile</NavLink>                     
+                    </li>
+                  <li class="nav-item">
+                    <NavLink to="/login" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>Logout</NavLink>                     
+                  </li>  
                 </ul>                
               </div>           
           </nav>         

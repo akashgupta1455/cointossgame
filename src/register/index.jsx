@@ -7,7 +7,7 @@ function register() {
   return (
     <>
     <Header/>
-      <section className='login-bg py-5'>
+      <section className='login-bg py-5 h-100'>
         <div className='container h-100'>
           <div className='row align-items-center justify-content-center h-100'>
            

@@ -15,6 +15,7 @@ import Home from './home';
 import About from './about';
 import Contact from './contact';
 import Forget from './forget';
+import Profile from './userprofile';
 
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path:"/forget",
     element: <Forget/>
+  },
+   {
+    path:"/profile",
+    element: <Profile/>
   },
 ]);
 

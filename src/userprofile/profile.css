@@ -1,0 +1,255 @@
+.profile-bg{
+    background: url(../userprofile/images/background-profile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.profile-banner img {
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid #f0b012;
+    padding: 6px;
+}
+.profile-banner {
+    text-align: center;
+    position: relative;
+    z-index: 9;
+}
+.profile-bg:after{
+    content: "";
+    position: absolute;
+    background-color: black;
+}
+
+.profile-bg:after {
+    content: "";
+    position: absolute;
+    background-color: #000000b8;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.profile-banner h2 {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.black-bg{
+background: #131a22;
+}
+.custom-tablist ul li .nav-link.active {
+    background: unset;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #f0b000;
+    border-bottom: unset;
+}
+
+.custom-tablist ul li .nav-link:hover {
+    border: unset;
+    border-radius: 0;
+}
+.custom-tablist ul li button.nav-link{
+    color: #fff;
+    transition: unset;
+    border: unset;
+}
+.tab-content .tab-pane {
+    color: #fff;
+}
+
+.custom-tablist ul li .nav-link{
+    position: relative;
+}
+.custom-tablist ul li .nav-link.active:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #f0b000;
+    display: block;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.custom-tablist .nav-tabs {
+    border-bottom: 1px solid #303030;
+}
+.overview-tab ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.overview-tab ul li {
+    list-style: none;
+    width: 20%;
+    border-right: 1px solid #fff;
+    padding: 10px 20px;
+}
+.overview-flex {
+    display: flex;
+}
+.overview-text h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.overview-text p {
+    margin: 0;
+}
+.overview-icons {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 0 15px;
+    margin: 0 10px 0 0px;
+}
+.overview-tab {
+    background: #dba000;
+    padding: 10px;
+}
+.overview-icons svg {
+    font-size: 30px;
+}
+.overview-tab ul li:last-child{
+    border: unset;
+}
+.balance-tab h3 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #515151;
+    padding-bottom: 10px;
+}
+.allbalance {
+    border: 1px solid #515151;
+    padding: 30px;
+}
+.allbalance h2 {
+    margin: 0;
+    font-weight: bold;
+    color: #f0b000;
+}
+.referrl-link {
+    display: flex;
+    align-items: center;
+    border: 1px solid #515151;
+    background: #1f2935;
+}
+.referrl-link span {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #515151;
+    color: #f0b000;
+}
+.referrl-link button {
+    width: 20%;
+}
+
+.referrl-link input.form-control {
+    background: unset;
+    border: 0;
+    width: 60%;
+    color: #fff;
+}
+.referrl-link input:focus, .referrl-link button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.referrl-link button.btn {
+    color: #131a22;
+    background: #f0b000;
+    border-radius: 0;
+}
+.myaccount .form-group input{
+    width: 100%;
+        margin: 0;
+        outline: 0;
+        line-height: normal;
+        padding: 14px 20px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        background: #161e26;
+        color: #fff;
+}
+
+.myaccount .form-group input:focus{
+    box-shadow: unset;
+    border: unset;
+}
+
+.myaccount .form-group label span {
+    color: #f00;
+}
+.allbalance.wallet-balance h2 svg {
+    font-size: 35px;
+    position: relative;
+    top: -3px;
+}
+.walllet-field .form-group input{
+    width: 100%;
+        margin: 0;
+        outline: 0;
+        line-height: normal;
+        padding: 14px 20px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        background: #161e26;
+        color: #fff;
+}
+.walllet-field .form-group label {
+    margin-bottom: 10px;
+}
+.walllet-field .form-group label span {
+    color: #dba000;
+}
+.walllet-field .form-group input:focus{
+    box-shadow: unset;
+    border: unset;
+    background: #161e26;
+}
+.rupee-btn button.btn {
+    border: 1px solid #f0b000;
+    color: #f0b000;
+    border-radius: 30px;
+    margin: 20px 10px 0 0;
+    font-size: 14px;
+}
+.rupee-btn button.btn svg {
+    font-size: 15px;
+    position: relative;
+    top: -1px;
+}
+
+.rupee-btn button.btn:focus{
+    outline: none;
+    box-shadow: unset;
+}
+.apply-btn button.btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 11px 32px;
+    background: #F0B000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    z-index: 0;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Exo', sans-serif;
+}
+.apply-btn {
+    position: relative;
+    margin-top: 33px;
+}
