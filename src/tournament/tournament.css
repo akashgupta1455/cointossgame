@@ -172,9 +172,16 @@
 .coin-wrap h2 {
     color: #fbe73d;
     text-align: center;
+    font-size: 26px;
+    margin-bottom: 0;
 }
-
+.coin-wrap button:focus{
+    outline: none;
+    border: unset;
+    box-shadow: unset;
+}
 .floor-wraping {
+    padding-block: 62px;
     background-image: url(/src/tournament/images/coin_frame.png);
     width: 220px;
     background-size: 280px;
@@ -182,8 +189,6 @@
     background-position: center;
     height: 470px;
 }
-.coin-wrap button:focus{
-    outline: none;
-    border: unset;
-    box-shadow: unset;
+.coin-wrap {
+    margin-bottom: 20px;
 }
