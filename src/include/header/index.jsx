@@ -24,7 +24,7 @@ function header() {
                     <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>About Us</NavLink>
                   </li>
                   <li class="nav-item">
-                     <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>Tournament</NavLink>                   
+                     <NavLink to="/tournament" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>Tournament</NavLink>                   
                   </li>                     
                   {/* <li class="nav-item">
                     <NavLink to="/register" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "nav-link active" : "nav-link"}>Sign up</NavLink>                   

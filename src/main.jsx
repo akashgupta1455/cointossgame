@@ -16,6 +16,7 @@ import About from './about';
 import Contact from './contact';
 import Forget from './forget';
 import Profile from './userprofile';
+import Tournament from './tournament/index.jsx';
 
 
 const router = createBrowserRouter([
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
     path:"/profile",
     element: <Profile/>
   },
+  {
+    path: "/tournament",
+    element:<Tournament/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

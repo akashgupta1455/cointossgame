@@ -1,0 +1,189 @@
+.body-bg{
+    background-image: url(images/game-bg-first.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-game {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.game-user img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    top: 42%;
+    transform: translate(-47%, -50%);
+}
+.game-user {
+    background-image: url(/src/tournament/images/User_name.png);
+    background-size: contain;
+    width: 240px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.wallet-bg {
+    background-color: unset;
+    background-image: url(/src/tournament/images/balance_frame-btn.png);
+    background-size: contain;
+    width: 240px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 110px;
+}
+
+.flooring-coins{
+    background-image: url(/src/tournament/images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.wallet-bg button {
+    border: unset;
+    background: unset;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 70px;
+}
+.game-user span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 40%;
+    top: 27%;
+}
+.flooring-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.flooring-coins {
+    background-image: url(/src/tournament/images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 620px;
+    height: 620px;
+    position: relative;
+    transform: translate(23%, -90px);
+}
+
+.woodfloor {
+    background-image: url(/src/tournament/images/bottom-frame.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    height: 160px;
+    position: fixed;
+    bottom: 0;
+}
+
+.floor-wraping{
+    background-image: url(/src/tournament/images/coin_frame.png);
+}
+
+
+.flooring-coins img{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -56%);
+    width: 200px;
+}
+.woodfloor button{
+    background: unset;
+    border: unset;
+}
+
+.input-box input {
+    background: unset;
+    border: 0;
+    width: 100%;
+}
+.left-btn button.sound.minus-btn img, 
+.right-btn button.sound.plus-btn img {
+    width: 85px;
+}
+
+.left-btn button.sound img {
+    width: 70px;
+}
+.left-btn {
+    margin: 50px 0 0 60px;
+    min-width: 25%;
+}
+.right-btn {
+    margin: 50px 0px 0 0;
+    min-width: 33%;
+}
+.right-btn button.sound.next-btn img {
+    height: 100px;
+}
+.input-box input.form-control {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.input-box {
+    width: 34%;
+    min-width: 34%;
+    margin-right: 20px;
+}
+.input-box input:focus{
+    background: unset;
+    outline: unset;
+    box-shadow: unset;
+}
+.form-control:disabled,
+.form-control[readonly]{
+    background: unset;
+}
+
+.floor-select {
+    transform: translate(80%, 0);
+}
+.coin-wrap button img {
+    width: 125px;
+}
+.coin-wrap button {
+    padding: unset;
+    border: unset;
+    background: unset;
+    width: 100%;
+}
+.coin-wrap h2 {
+    color: #fbe73d;
+    text-align: center;
+}
+
+.floor-wraping {
+    background-image: url(/src/tournament/images/coin_frame.png);
+    width: 220px;
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 470px;
+}
+.coin-wrap button:focus{
+    outline: none;
+    border: unset;
+    box-shadow: unset;
+}
