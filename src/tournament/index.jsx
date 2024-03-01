@@ -7,6 +7,10 @@ import Plusbtn from '../tournament/images/plus-btn.png'
 import Nextbtn from '../tournament/images/next-btn.png'
 import Sound from '../tournament/images/sound-on.png'
 import Tail from '../tournament/images/tail.png'
+import Woodflooring from '../tournament/images/bottom-frame.png'
+import CoinFrame from '../tournament/images/coin_frame.png'
+import ScoreFrame from '../tournament/images/score_frame.png'
+import { Link } from "react-router-dom";
 
 
 
@@ -29,6 +33,7 @@ const Tournament = () => {
                             <img src={Head} alt="coin"/>
                         </div>
                         <div className="woodfloor">
+                            <img src={Woodflooring} alt="wood-floor" className="wood-flooring"/>
                             <div className="left-btn">
                                 <button type="button" className="sound">
                                     <img src={Sound} alt="Sound"/>
@@ -44,25 +49,77 @@ const Tournament = () => {
                                 <button type="button" className="sound plus-btn">
                                     <img src={Plusbtn} alt="Plusbtn"/>
                                 </button>
-                                <button type="button" className="sound next-btn">
+                                <Link to="/tournament-main" className="sound next-btn">
                                     <img src={Nextbtn} alt="Nextbtn"/>
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="floor-select">
                         <div className="floor-wraping">
-                            <div className="coin-wrap">
-                                <h2>Head</h2>
-                                <button className="btn">
-                                    <img src={Head} alt="Head" />
-                                </button>
+                            <img src={CoinFrame} alt="CoinFrame"/>
+                            <div className="coin-frame">
+                                <div className="coin-wrap">
+                                    <h2>Head</h2>
+                                    <button className="btn">
+                                        <img src={Head} alt="Head" />
+                                    </button>
+                                </div>
+                                <div className="coin-wrap">
+                                    <h2>Tail</h2>
+                                    <button className="btn">
+                                        <img src={Tail} alt="Tail" />
+                                    </button>
+                                </div>
                             </div>
-                             <div className="coin-wrap">
-                                <h2>Tail</h2>
-                                <button className="btn">
-                                    <img src={Tail} alt="Tail" />
-                                </button>
+                        </div>
+                    </div>
+                    <div className="bet-history">
+                        <img src={ScoreFrame} alt="ScoreFrame" className="ScoreFrame"/>
+                        <div className="bet-wrap">
+                            <div className="bet-assets">
+                                <div className="bet-coin">
+                                    <img src={Head} alt="head"/>
+                                </div>
+                                <div className="bet-game">
+                                    <h4>10</h4>
+                                </div>
+                                <div className="bet-profit">
+                                    <h4>20</h4>
+                                </div>
+                            </div>
+                            <div className="bet-assets">
+                                <div className="bet-coin">
+                                    <img src={Tail} alt="head"/>
+                                </div>
+                                <div className="bet-game">
+                                    <h4>10</h4>
+                                </div>
+                                <div className="bet-profit">
+                                    <h4>20</h4>
+                                </div>
+                            </div>
+                            <div className="bet-assets">
+                                <div className="bet-coin">
+                                    <img src={Head} alt="head"/>
+                                </div>
+                                <div className="bet-game">
+                                    <h4>10</h4>
+                                </div>
+                                <div className="bet-profit">
+                                    <h4>20</h4>
+                                </div>
+                            </div>
+                            <div className="bet-assets">
+                                <div className="bet-coin">
+                                    <img src={Tail} alt="head"/>
+                                </div>
+                                <div className="bet-game">
+                                    <h4>10</h4>
+                                </div>
+                                <div className="bet-profit">
+                                    <h4>20</h4>
+                                </div>
                             </div>
                         </div>
                     </div>

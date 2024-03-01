@@ -17,6 +17,7 @@ import Contact from './contact';
 import Forget from './forget';
 import Profile from './userprofile';
 import Tournament from './tournament/index.jsx';
+import MainGame from './tournament-main/index.jsx';
 
 
 const router = createBrowserRouter([
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "/tournament",
     element:<Tournament/>
+  },
+  {
+    path: "/tournament-main",
+    element:<MainGame/>
   }
 ]);
 

@@ -76,38 +76,41 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 620px;
-    height: 620px;
+    width: 72vh;
+    height: 72vh;
     position: relative;
-    transform: translate(23%, -90px);
+    transform: translate(23%, -5%);
 }
-
 .woodfloor {
-    background-image: url(/src/tournament/images/bottom-frame.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 60%;
+    width: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-size: cover;
-    height: 160px;
     position: fixed;
     bottom: 0;
 }
-
-.floor-wraping{
-    background-image: url(/src/tournament/images/coin_frame.png);
+.woodfloor img.wood-flooring {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100vh;
+    bottom: 0;
 }
-
 
 .flooring-coins img{position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -56%);
-    width: 200px;
 }
 .woodfloor button{
+    background: unset;
+    border: unset;
+}
+
+.woodfloor a{
     background: unset;
     border: unset;
 }
@@ -128,25 +131,37 @@
 .left-btn {
     margin: 50px 0 0 60px;
     min-width: 25%;
+    position: relative;
+    z-index: 2;
 }
 .right-btn {
     margin: 50px 0px 0 0;
     min-width: 33%;
+    position: relative;
+    z-index: 2;
 }
 .right-btn button.sound.next-btn img {
     height: 100px;
 }
+
+.right-btn a.sound.next-btn img {
+    height: 100px;
+}
+
 .input-box input.form-control {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: #fff;
 }
+
 .input-box {
-    width: 34%;
-    min-width: 34%;
-    margin-right: 20px;
+    width: 28%;
+    min-width: 30%;
+    position: relative;
+    z-index: 2;
 }
+
 .input-box input:focus{
     background: unset;
     outline: unset;
@@ -160,11 +175,8 @@
 .floor-select {
     transform: translate(80%, 0);
 }
-.coin-wrap button img {
-    width: 125px;
-}
+
 .coin-wrap button {
-    padding: unset;
     border: unset;
     background: unset;
     width: 100%;
@@ -172,7 +184,7 @@
 .coin-wrap h2 {
     color: #fbe73d;
     text-align: center;
-    font-size: 26px;
+    font-size: 2rem;
     margin-bottom: 0;
 }
 .coin-wrap button:focus{
@@ -181,14 +193,57 @@
     box-shadow: unset;
 }
 .floor-wraping {
-    padding-block: 62px;
-    background-image: url(/src/tournament/images/coin_frame.png);
     width: 220px;
-    background-size: 280px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 470px;
+    position: relative;
 }
+
 .coin-wrap {
     margin-bottom: 20px;
+}
+.coin-frame {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 410px;
+}
+
+.bet-history {
+    transform: translate(70%, 0);
+    position: relative;
+}
+
+.bet-wrap {
+    position: absolute;
+    left: 0;
+    z-index: 9;    
+    width: 100%;
+    right: 0;    
+    top: 25%;
+}
+
+.bet-coin img {
+    width: 50px;
+}
+.bet-coin, .bet-game, .bet-profit {
+    width: 33%;
+    text-align: center;
+}
+.bet-assets {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto 10px;
+    align-items: center;
+    background-color: #c3b49c;
+    border-radius: 10px;
+    border: 1px solid #c1c1c1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.bet-game h4, .bet-profit h4 {
+    margin: 0;
+    font-weight: 500;
 }
