@@ -1,0 +1,1191 @@
+{
+  "frames": {
+    "coin_front_36.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 818,
+        "h": 788
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 549,
+        "y": 72,
+        "w": 818,
+        "h": 788
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_37.png": {
+      "frame": {
+        "x": 818,
+        "y": 0,
+        "w": 818,
+        "h": 709
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 548,
+        "y": 101,
+        "w": 818,
+        "h": 709
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_35.png": {
+      "frame": {
+        "x": 1636,
+        "y": 0,
+        "w": 815,
+        "h": 817
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 550,
+        "y": 69,
+        "w": 815,
+        "h": 817
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_34.png": {
+      "frame": {
+        "x": 818,
+        "y": 709,
+        "w": 814,
+        "h": 807
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 551,
+        "y": 83,
+        "w": 814,
+        "h": 807
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_33.png": {
+      "frame": {
+        "x": 0,
+        "y": 788,
+        "w": 814,
+        "h": 750
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 551,
+        "y": 123,
+        "w": 814,
+        "h": 750
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_32.png": {
+      "frame": {
+        "x": 2453,
+        "y": 0,
+        "w": 814,
+        "h": 642
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 551,
+        "y": 184,
+        "w": 814,
+        "h": 642
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_38.png": {
+      "frame": {
+        "x": 3267,
+        "y": 0,
+        "w": 812,
+        "h": 581
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 551,
+        "y": 161,
+        "w": 812,
+        "h": 581
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_31.png": {
+      "frame": {
+        "x": 4079,
+        "y": 0,
+        "w": 812,
+        "h": 486
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 552,
+        "y": 261,
+        "w": 812,
+        "h": 486
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_30.png": {
+      "frame": {
+        "x": 4891,
+        "y": 0,
+        "w": 807,
+        "h": 290
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 555,
+        "y": 350,
+        "w": 807,
+        "h": 290
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_28.png": {
+      "frame": {
+        "x": 5698,
+        "y": 0,
+        "w": 800,
+        "h": 395
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 558,
+        "y": 259,
+        "w": 800,
+        "h": 395
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_29.png": {
+      "frame": {
+        "x": 4891,
+        "y": 290,
+        "w": 800,
+        "h": 191
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 558,
+        "y": 372,
+        "w": 800,
+        "h": 191
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_39.png": {
+      "frame": {
+        "x": 6498,
+        "y": 0,
+        "w": 799,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 558,
+        "y": 250,
+        "w": 799,
+        "h": 412
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_27.png": {
+      "frame": {
+        "x": 5691,
+        "y": 395,
+        "w": 795,
+        "h": 564
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 561,
+        "y": 170,
+        "w": 795,
+        "h": 564
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_26.png": {
+      "frame": {
+        "x": 4891,
+        "y": 481,
+        "w": 787,
+        "h": 686
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 565,
+        "y": 113,
+        "w": 787,
+        "h": 686
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_25.png": {
+      "frame": {
+        "x": 4079,
+        "y": 486,
+        "w": 779,
+        "h": 755
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 569,
+        "y": 88,
+        "w": 779,
+        "h": 755
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_40.png": {
+      "frame": {
+        "x": 3267,
+        "y": 581,
+        "w": 777,
+        "h": 221
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 569,
+        "y": 356,
+        "w": 777,
+        "h": 221
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_24.png": {
+      "frame": {
+        "x": 2453,
+        "y": 642,
+        "w": 770,
+        "h": 773
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 573,
+        "y": 89,
+        "w": 770,
+        "h": 773
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_23.png": {
+      "frame": {
+        "x": 1632,
+        "y": 815,
+        "w": 764,
+        "h": 751
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 576,
+        "y": 109,
+        "w": 764,
+        "h": 751
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_22.png": {
+      "frame": {
+        "x": 814,
+        "y": 1516,
+        "w": 757,
+        "h": 684
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 579,
+        "y": 153,
+        "w": 757,
+        "h": 684
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_21.png": {
+      "frame": {
+        "x": 0,
+        "y": 1538,
+        "w": 749,
+        "h": 568
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 583,
+        "y": 216,
+        "w": 749,
+        "h": 568
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_41.png": {
+      "frame": {
+        "x": 0,
+        "y": 2106,
+        "w": 745,
+        "h": 208
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 585,
+        "y": 384,
+        "w": 745,
+        "h": 208
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_20.png": {
+      "frame": {
+        "x": 3226,
+        "y": 802,
+        "w": 739,
+        "h": 409
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 588,
+        "y": 293,
+        "w": 739,
+        "h": 409
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_19.png": {
+      "frame": {
+        "x": 3226,
+        "y": 1211,
+        "w": 725,
+        "h": 225
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 595,
+        "y": 376,
+        "w": 725,
+        "h": 225
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_42.png": {
+      "frame": {
+        "x": 2396,
+        "y": 1412,
+        "w": 711,
+        "h": 350
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 602,
+        "y": 319,
+        "w": 711,
+        "h": 350
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_18.png": {
+      "frame": {
+        "x": 1571,
+        "y": 1566,
+        "w": 711,
+        "h": 210
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 602,
+        "y": 363,
+        "w": 711,
+        "h": 210
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_17.png": {
+      "frame": {
+        "x": 1571,
+        "y": 1776,
+        "w": 700,
+        "h": 377
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 608,
+        "y": 273,
+        "w": 700,
+        "h": 377
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_16.png": {
+      "frame": {
+        "x": 7297,
+        "y": 0,
+        "w": 685,
+        "h": 508
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 615,
+        "y": 206,
+        "w": 685,
+        "h": 508
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_15.png": {
+      "frame": {
+        "x": 6486,
+        "y": 412,
+        "w": 668,
+        "h": 593
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 624,
+        "y": 168,
+        "w": 668,
+        "h": 593
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_7.png": {
+      "frame": {
+        "x": 7154,
+        "y": 412,
+        "w": 497,
+        "h": 131
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 710,
+        "y": 409,
+        "w": 497,
+        "h": 131
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_43.png": {
+      "frame": {
+        "x": 5678,
+        "y": 959,
+        "w": 664,
+        "h": 444
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 626,
+        "y": 272,
+        "w": 664,
+        "h": 444
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_14.png": {
+      "frame": {
+        "x": 4858,
+        "y": 1167,
+        "w": 651,
+        "h": 633
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 633,
+        "y": 156,
+        "w": 651,
+        "h": 633
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_13.png": {
+      "frame": {
+        "x": 3951,
+        "y": 1241,
+        "w": 632,
+        "h": 634
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 642,
+        "y": 161,
+        "w": 632,
+        "h": 634
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_6.png": {
+      "frame": {
+        "x": 4585,
+        "y": 1241,
+        "w": 474,
+        "h": 228
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 722,
+        "y": 358,
+        "w": 474,
+        "h": 228
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_8.png": {
+      "frame": {
+        "x": 4585,
+        "y": 1715,
+        "w": 526,
+        "h": 182
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 696,
+        "y": 393,
+        "w": 526,
+        "h": 182
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_12.png": {
+      "frame": {
+        "x": 3107,
+        "y": 1436,
+        "w": 613,
+        "h": 603
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 652,
+        "y": 183,
+        "w": 613,
+        "h": 603
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_44.png": {
+      "frame": {
+        "x": 2282,
+        "y": 1762,
+        "w": 604,
+        "h": 482
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 656,
+        "y": 249,
+        "w": 604,
+        "h": 482
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_11.png": {
+      "frame": {
+        "x": 1571,
+        "y": 2153,
+        "w": 595,
+        "h": 536
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 661,
+        "y": 222,
+        "w": 595,
+        "h": 536
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_10.png": {
+      "frame": {
+        "x": 745,
+        "y": 2244,
+        "w": 574,
+        "h": 436
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 672,
+        "y": 273,
+        "w": 574,
+        "h": 436
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_9.png": {
+      "frame": {
+        "x": 0,
+        "y": 2314,
+        "w": 552,
+        "h": 314
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 683,
+        "y": 332,
+        "w": 552,
+        "h": 314
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_45.png": {
+      "frame": {
+        "x": 0,
+        "y": 2628,
+        "w": 525,
+        "h": 472
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 696,
+        "y": 250,
+        "w": 525,
+        "h": 472
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_5.png": {
+      "frame": {
+        "x": 3720,
+        "y": 1873,
+        "w": 446,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 736,
+        "y": 323,
+        "w": 446,
+        "h": 296
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_4.png": {
+      "frame": {
+        "x": 4166,
+        "y": 1873,
+        "w": 418,
+        "h": 339
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 750,
+        "y": 302,
+        "w": 418,
+        "h": 339
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_46.png": {
+      "frame": {
+        "x": 3720,
+        "y": 2169,
+        "w": 430,
+        "h": 416
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 744,
+        "y": 273,
+        "w": 430,
+        "h": 416
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_3.png": {
+      "frame": {
+        "x": 4150,
+        "y": 2212,
+        "w": 397,
+        "h": 364
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 761,
+        "y": 292,
+        "w": 397,
+        "h": 364
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_47.png": {
+      "frame": {
+        "x": 2886,
+        "y": 2039,
+        "w": 387,
+        "h": 386
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 766,
+        "y": 285,
+        "w": 387,
+        "h": 386
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_2.png": {
+      "frame": {
+        "x": 3273,
+        "y": 2039,
+        "w": 386,
+        "h": 377
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 766,
+        "y": 287,
+        "w": 386,
+        "h": 377
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_1.png": {
+      "frame": {
+        "x": 3273,
+        "y": 2416,
+        "w": 381,
+        "h": 381
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 769,
+        "y": 286,
+        "w": 381,
+        "h": 381
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_0.png": {
+      "frame": {
+        "x": 2166,
+        "y": 2244,
+        "w": 380,
+        "h": 381
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 769,
+        "y": 287,
+        "w": 380,
+        "h": 381
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "coin_front_48.png": {
+      "frame": {
+        "x": 2166,
+        "y": 2624,
+        "w": 380,
+        "h": 381
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 769,
+        "y": 287,
+        "w": 380,
+        "h": 381
+      },
+      "sourceSize": {
+        "w": 1920,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "coin_front.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 7982,
+      "h": 3100
+    },
+    "scale": 1
+  }
+}
